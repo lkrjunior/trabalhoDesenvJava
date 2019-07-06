@@ -1,0 +1,50 @@
+Se chegar alerta do tipo tal
+Alert de x para
+Direcionar o alerta conforme o horário (Escala)
+Como alerto slack
+
+
+***********************
+# Ranieri
+Ler a FILA
+    • AWS
+    • Tirar da fila
+    • Log
+
+# Matheus
+Modelagem H2
+    • Criar tabelas e Script
+
+# Caio e Vivi
+    Leitura dos grupos
+      • Usuário Padrão
+          • Contato
+      • Usuários
+          • Escala
+          • Contato
+
+#Luciano
+Regras
+        • Vinculos
+        • CPU
+# Alex
+Notificação
+        • Email
+        (https://api.slack.com/community#java)
+        • Slack
+        (https://github.com/gpedro/slack-webhook)
+
+Dontpad
+http://dontpad.com/tasima/pda2019/trabalho
+
+Example for payload AlertDTO (Datetime: 2019-06-29 14:09:23.771)
+{
+    "timestamp" : 1561828163771,
+    "source" : "alert_from_queue",
+    "ruleName" : "memory",
+    "value" : "95"
+}
+
+Console ActiveMQ: https://b-b00aa713-50cd-442d-9906-9686495904f2-1.mq.us-east-1.amazonaws.com:8162/
+Senha para activemq: tasima2019pda
+Users para activemq: metrics, alerts, monitor
